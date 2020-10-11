@@ -5,7 +5,7 @@
 Ce qui a été acquis :
 
 - [x] Créer des branches avec `git branch nomdebranche`
-- [] Réunir des branches avec `git merge`
+- [x] Réunir des branches avec `git merge`
 - [x] Créer un fichier readme avec le markdown
 - [x] Le nommage de commit
 - [x] L'utilisation du .gitignore
