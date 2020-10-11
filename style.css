@@ -1,9 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 form {
     display: flex;
     flex-wrap: wrap;
     width: 500px;
 }
 
+body {
+    background-color: rgba(144, 238, 144, 0.596);
+}
+
 input {
     width: 100%;
+}
+
+.head-container {
+    background-color: lightgreen;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 10px 20% 0 20%;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.autres-box {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 50px 10% 0 10% ;
+    border-radius: 10px;
 }
